@@ -12,6 +12,9 @@ let firstH2 = document.querySelector('h2');
 firstH2.textContent = "Exercice 2 partie A";
 
 // ### 3. Dans le second h2 ajoute le texte suivant : Exercice 2 partie B
+let secondH2 = document.querySelectorAll('h2')[1];
+secondH2.textContent = 'Exercice 2 partie B';
+
 // ### 4. Dans le premier p ajoute le texte suivant(attention a conserver les balises) :  L'ajout de class et d'ID est assez simple, il suffit de connaitre les methodes <b>par coeur</b> 
 // ### 5. Dans le second p ajoute le texte suivant(attention a conserver les balises) :   La manipulation de l'attribut Style peut-être une <i>solution</i> rapide
 
