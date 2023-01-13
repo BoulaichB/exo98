@@ -16,6 +16,8 @@ let secondH2 = document.querySelectorAll('h2')[1];
 secondH2.textContent = 'Exercice 2 partie B';
 
 // ### 4. Dans le premier p ajoute le texte suivant(attention a conserver les balises) :  L'ajout de class et d'ID est assez simple, il suffit de connaitre les methodes <b>par coeur</b> 
+let firstParagraph = document.querySelector('p');
+firstParagraph.innerText = "L'ajout de class et d'ID est assez simple, il suffit de connaitre les methodes <b>par coeur</b>"
 // ### 5. Dans le second p ajoute le texte suivant(attention a conserver les balises) :   La manipulation de l'attribut Style peut-être une <i>solution</i> rapide
 
 // ## Partie 2.1 Ajout d'attribut et de leurs valeurs
