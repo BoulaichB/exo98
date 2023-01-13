@@ -28,6 +28,9 @@ h1.setAttribute('id', 'bigTitle');
 // ### 7. Rajoute l'attribut class a la div avec comme valeur "container"
 h1.nextElementSibling.classList.add('container');
 // ### 8. Aux h2 ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "title"
+document.querySelectorAll('h2').forEach(element => {
+    element.classList.add('title');
+});
 // ### 9. Aux p ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "text"
 
 
