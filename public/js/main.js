@@ -32,7 +32,9 @@ document.querySelectorAll('h2').forEach(element => {
     element.classList.add('title');
 });
 // ### 9. Aux p ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "text"
-
+document.querySelectorAll('p').forEach(element => {
+    element.classList.add('text');
+})
 
 // ## Partie 2.2 Ajout d'attribut et de leurs valeurs
 // ### 10. Dans la première section ajoute l'attribut class et les class suivantes : margin-bottom border-black padding
