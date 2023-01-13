@@ -24,6 +24,7 @@ secondParagraph.innerText = "La manipulation de l'attribut Style peut-être une 
 
 // ## Partie 2.1 Ajout d'attribut et de leurs valeurs
 // ### 6. Rajoute l'attribut id dans le h1 et donne lui la valeur "bigTitle"
+h1.setAttribute('id', 'bigTitle');
 // ### 7. Rajoute l'attribut class a la div avec comme valeur "container"
 // ### 8. Aux h2 ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "title"
 // ### 9. Aux p ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "text"
