@@ -49,3 +49,8 @@ section2.classList.add('margin-top');
 section2.classList.add('border-black');
 section2.classList.add('padding');
 // ### 12. Dans la div ayant comme parent une section, ajoute l'attribut style et fait en sorte qu'il ait un fond bleu, une bordure de ton choix, une hauteur de 20px et une largueur de 20px
+let div = document.querySelector('section div');
+div.style.backgroundColor = 'blue';
+div.style.border = '1px solid red';
+div.style.height = '20px';
+div.style.width = '20px';
