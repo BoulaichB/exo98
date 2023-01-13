@@ -38,5 +38,9 @@ document.querySelectorAll('p').forEach(element => {
 
 // ## Partie 2.2 Ajout d'attribut et de leurs valeurs
 // ### 10. Dans la première section ajoute l'attribut class et les class suivantes : margin-bottom border-black padding
+let section1 = document.querySelector('section');
+section1.classList.add('margin-bottom');
+section1.classList.add('border-black');
+section1.classList.add('padding');
 // ### 11. Dans la seconde section ajoute l'attribut class et les class suivantes : margin-top border-black padding
 // ### 12. Dans la div ayant comme parent une section, ajoute l'attribut style et fait en sorte qu'il ait un fond bleu, une bordure de ton choix, une hauteur de 20px et une largueur de 20px
