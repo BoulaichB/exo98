@@ -4,13 +4,16 @@
 
 // ## Partie 1 Ajout de contenu
 // ### 1. Dans le h1 ajoute le texet suivant : Les attributs class et id
+let h1 = document.querySelector('h1');
+h1.textContent = "Les attributs class et id";
+
 // ### 2. Dans le premier h2 ajoute le texte suivant : Exercice 2 partie A
+let firstH2 = document.querySelector('h2');
+firstH2.textContent = "Exercice 2 partie A";
+
 // ### 3. Dans le second h2 ajoute le texte suivant : Exercice 2 partie B
 // ### 4. Dans le premier p ajoute le texte suivant(attention a conserver les balises) :  L'ajout de class et d'ID est assez simple, il suffit de connaitre les methodes <b>par coeur</b> 
 // ### 5. Dans le second p ajoute le texte suivant(attention a conserver les balises) :   La manipulation de l'attribut Style peut-être une <i>solution</i> rapide
-
-let h1 = document.querySelector('h1');
-h1.textContent = "Les attributs class et id";
 
 // ## Partie 2.1 Ajout d'attribut et de leurs valeurs
 // ### 6. Rajoute l'attribut id dans le h1 et donne lui la valeur "bigTitle"
